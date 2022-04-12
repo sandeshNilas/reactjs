@@ -53,7 +53,7 @@ function App() {
         {/* <Routes> */}
           <Switch>
           <Route exact path="/about">
-            <About />
+            <About mode={mode} toggleMode={toggleMode}/>
           </Route>
           <Route exact path="/">
             <TextForm mode={mode} showAlert={showAlert} toggleMode={toggleMode}/> 
